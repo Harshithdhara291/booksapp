@@ -1,0 +1,36 @@
+.nav-header{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    background-color: #a72d14;
+    width:100%;
+    margin-bottom: 0px;
+    position: relative;
+}
+.nav-button{
+    color: white;
+    background-color: #a72d14;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.logo-head{
+    color: #ffffff;
+    background-color: #a72d14;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-style: italic;
+    cursor: pointer;
+}
