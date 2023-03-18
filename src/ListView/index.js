@@ -1,7 +1,6 @@
 import {Link} from 'react-router-dom'
 import Navbar from '../Navbar'
 import books from '../books.json'
-import BookItem from '../BookItem'
 import './index.css'
 
 const Home = () =>{
