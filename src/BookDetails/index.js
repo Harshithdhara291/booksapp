@@ -4,10 +4,13 @@ import './index.css'
 
 const BookDetails = () =>{
     let pathArray = window.location.pathname.split('/');
-    const lastEl = pathArray.slice(-1)[0]
+    let lastEl = pathArray.slice(-1)[0]
     const obj = books.filter(each =>(
-        each.id == lastEl
-    ))
+        // eslint-disable-next-line
+            each.id == lastEl
+            
+        ))
+    console.warn = () =>{}
     const {id,bookName,authorName} = obj[0]
     return (
         <>
