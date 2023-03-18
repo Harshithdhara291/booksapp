@@ -9,6 +9,6 @@ It navigates between two pages using React Router
 this app is mobile responsive
 
 ### third party packages
-react-router-dom
-uuid for generating id's for each book item
+react-router-dom,
+uuid for generating id's for each book item,
 react icons
