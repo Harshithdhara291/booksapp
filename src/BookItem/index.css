@@ -1,16 +1,3 @@
-.main-container{
-}
-.bookslist-view{
-    background-color: #ffffff;
-    box-sizing: border-box;
-}
-.unordered-list{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-}
 .booklist-item{
     list-style-type: none;
     background-color: #eee6e5;
@@ -23,10 +10,6 @@
     width: 80%;
     border: 2px solid #e0d2d2;
     border-radius: 15px;
-}
-.link-item{
-    text-decoration: none;
-    align-self: center;
 }
 .book-name{
     color: rgb(51, 46, 46);
