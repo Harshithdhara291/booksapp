@@ -12,7 +12,7 @@ const BookDetails = () =>{
     return (
         <>
         <div><Navbar/></div>
-        <div className='bookitem' key={id}>
+        <div className='bookitem-each' key={id}>
             <h1 className='book-name-detail'>{bookName}</h1>
             <p className='author-name-detail'>by - {authorName}</p>
         </div>
