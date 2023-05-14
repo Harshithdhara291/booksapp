@@ -2,14 +2,17 @@ import { useState } from 'react'
 import Navbar from '../Navbar'
 import {v4 as uuidv4} from 'uuid'
 import books from '../books.json'
+import { useNavigate } from "react-router-dom"
 import './index.css'
 const AddBook = () =>{
+    const navigate = useNavigate()
     const [book,setBook] = useState({"id":uuidv4(),"bookName":"","authorName":""})
 
     function submit(e){
         books.unshift(book)
         setBook({"bookName":"","authorName":""})
         alert("Book added successfully")
+        navigate('/', { replace: true });
         e.preventDefault()
     }
 
